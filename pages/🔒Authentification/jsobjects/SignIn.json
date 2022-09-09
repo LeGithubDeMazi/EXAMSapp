@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "SignIn",
+    "pageId": "🔒Authentification",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t},\n\t\n\t\n\tSignIn: async () => {\n\tlet a = appsmith.URL.fullPath;\n\tif(a.includes('access_token')) {\n\treturn a.split('#')[1].split('&').forEach(i=>{\n\t\t\tconst [key,value] = i.split('=');\n\t\t\tstoreValue(key,value);\n\t\t});\t}\n\telse {return 0}\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "🔒Authentification_SignIn",
+  "deleted": false,
+  "gitSyncId": "6309d2731d42e903aff988f3_6309d2761d42e903aff98a31"
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "EXEC",
+    "pageId": "pageEleve",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tmyFun1: () => {\n\t\tstoreValue(\"ideleve\",GetUser.data.id);\n\t\t//return appsmith.store.ideleve;\n\t},\n\t\n  createResponse : async () => {\n\t\n\tlet body = {\n\tideleve : appsmith.store.ideleve,\n\tquestion1 : Dateq.formattedDate,\n\tquestion2 : prenomq.text,\n\tquestion3 : ageq.value,\n\tquestion4 : salaireq.text,\n\tquestion5 : superficieq.selectedOptionLabel,\n\tquestion6 : grandq.selectedOptionValue,\n\tquestion7 : metierq.selectedValues,\n\tquestion8 : paragrapheq.text,\n\tquestion9 : noteq.value,\n\tquestion10: numq.dialCode + numq.value\n}\t;\n\t\t\n\t     let c = await insertq.run({body});\t\n\t     showAlert('Vos reponse sont bien enregistrées !','info'); \n\t\t   let d = await GetQuestions.run();\n}\n}",
+    "variables": []
+  },
+  "id": "pageEleve_EXEC",
+  "deleted": false,
+  "gitSyncId": "6309d2731d42e903aff988f3_630c91408faf1771c76bbfee"
+}

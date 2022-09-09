@@ -1,0 +1,56 @@
+{
+  "pages": [
+    {
+      "id": "👤Mon profil",
+      "isDefault": false
+    },
+    {
+      "id": "🚹Manage User",
+      "isDefault": false
+    },
+    {
+      "id": "🔒Authentification",
+      "isDefault": false
+    },
+    {
+      "id": "LOGIN",
+      "isDefault": false
+    },
+    {
+      "id": "pageEleve",
+      "isDefault": true
+    },
+    {
+      "id": "pageProf1",
+      "isDefault": false
+    },
+    {
+      "id": "pageParent",
+      "isDefault": false
+    },
+    {
+      "id": "PageProf2",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "62cfeb91279768242a29c264",
+  "color": "#D6D1F2",
+  "icon": "frame",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "👤Mon profil",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tLogOut: async () => {\n\t\tLOGOUT.run();\n\t\tstoreValue('access_token','')\n\t\t.then(navigateTo('🔒Authentification')) \n\t},\n\t\nUserInfo: async () => {\nlet a = GetPublicUser.run();\nstoreValue('info',a);\n}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "👤Mon profil_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6309d2731d42e903aff988f3_6309d2751d42e903aff98a16"
+}

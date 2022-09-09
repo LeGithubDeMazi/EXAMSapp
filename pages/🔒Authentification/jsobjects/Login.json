@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Login",
+    "pageId": "🔒Authentification",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tlogin: async () => {\n\tlet a = await LogIn.run()\n\tdelete a.user;\n\t\tlet b = await Object.keys(a).forEach(i => {storeValue(i,a[i])});\t\t\t\t\t\t\t\t\t\t\t\t\t\t \n\t  //let c = await navigateTo('👤Mon profil');\n\t\t\tlet c = await GetUser.run() ;\n\t\t  let c1 = await GetPublicUser.run();\n\t\t\tlet d = await GetPublicUser.data;\n\t\t\tif (d[0].role == 'parent' ) { storeValue('ideleve', d[0].enfant); let e = await navigateTo('pageEleve') };\n\t\t  if (d[0].role == 'eleve' ) { storeValue('ideleve',d[0].id); let e = await navigateTo('pageEleve') };\n\t\t  if (d[0].role == 'prof' ) { let e = await navigateTo('pageProf1')}\n\n\t\t\n}\n}",
+    "variables": []
+  },
+  "id": "🔒Authentification_Login",
+  "deleted": false,
+  "gitSyncId": "6309d2731d42e903aff988f3_6309d2761d42e903aff98a2f"
+}

@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "Routage",
+    "pageId": "🔒Authentification",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\t\n\tnavigate: async () => {\n  var data = Get_role.GetRole();\n  if(data = 'prof'){navigateTo('🔒Authentification')}\n\tif(data = 'eleve'){navigateTo('🔒Authentification')}\n\tif(data = 'parent'){navigateTo('🔒Authentification')}\n\t}\n\t\n\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "🔒Authentification_Routage",
+  "deleted": false,
+  "gitSyncId": "6309d2731d42e903aff988f3_6309d2761d42e903aff98a33"
+}

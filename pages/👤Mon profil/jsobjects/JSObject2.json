@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "👤Mon profil",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tmyFun2: async () => {\n\t\tlet a = await GetUser.run() ;\n\t\t\tlet b = GetPublicUser.data[0].role ;\n\t\treturn b;\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "👤Mon profil_JSObject2",
+  "deleted": false,
+  "gitSyncId": "6309d2731d42e903aff988f3_630e0a351274f8409e77bc9b"
+}

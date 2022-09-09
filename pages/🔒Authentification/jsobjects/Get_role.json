@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Get_role",
+    "pageId": "🔒Authentification",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\n\tGetRole: async () => {\n\treturn GetPublicUser.data.pop().role\n\t},\n\t\n\t\t\n\tsetIdeleve: async () => {\n\t//Demande de connexion vers supabase(Mail, Password)\n\t//Supabase repond [oui + access_token] ou [Non]\n\t//appsmith.store.access_token\t\n\t//\t\n\t//\t\n\tstoreValue(\"ideleve\",1)\n\t\t\n\t}\n\t\n\t\n\t\n\t\n}",
+    "variables": []
+  },
+  "id": "🔒Authentification_Get_role",
+  "deleted": false,
+  "gitSyncId": "6309d2731d42e903aff988f3_6309d2761d42e903aff98a37"
+}

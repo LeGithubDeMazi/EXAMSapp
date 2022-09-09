@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "CreateUpdate",
+    "pageId": "🚹Manage User",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: () => {\n\t\t//write code here\n\t},\n\tCreateuser: async () => {\n\t\tInvitUserMagicLink.run();\n\t\tshowModal('Edit_User_after_create');\n},\n\t\n\tUpdateuser: async () => {\n\t\tif (edituser_role.selectedOptionValue == \"parent\")\n\t\t\t{\n\t\tvar body = {role: edituser_role.selectedOptionValue,\n \t\tenfant:edituser_enfant.selectedOptionValue};\n\t\t\t}\n\t\telse { body ={role: edituser_role.selectedOptionValue}; }\n\t\tlet a = await UpdateUser.run(()=>{closeModal('Edit_User');GetUser.run()},()=>{showAlert('l\\'operation de modification a echoué','error')},{body})\n\t\t\n\t\t\n},\n\n\tUpdateUserAfterCreate: async () => {\n\t\t\tUpdateUserAfterCreate.run();\t\t\n}\n\t\n\t\n\n\n}\n\t",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  },
+  "id": "🚹Manage User_CreateUpdate",
+  "deleted": false,
+  "gitSyncId": "6309d2731d42e903aff988f3_6309d2761d42e903aff98a2d"
+}
