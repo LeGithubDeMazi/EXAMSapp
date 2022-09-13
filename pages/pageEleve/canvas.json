@@ -401,7 +401,7 @@
                               "widgetId": "kt2zkrpzpx",
                               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                               "isVisible": true,
-                              "label": "3) quel est l'age du fermier",
+                              "label": "3) alors l'age du fermier",
                               "version": 2,
                               "parentId": "cckjd32ryz",
                               "minNum": "18",
@@ -2011,8 +2011,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.store.access_token",
-                "GetUser.data.id"
+                "GetUser.data.id",
+                "appsmith.store.access_token"
               ],
               "timeoutInMillisecond": 10000
             }
