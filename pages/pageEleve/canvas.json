@@ -477,66 +477,6 @@
                             },
                             {
                               "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-                              "widgetName": "superficieq",
-                              "isFilterable": true,
-                              "dynamicPropertyPathList": [
-                                {
-                                  "key": "isDisabled"
-                                }
-                              ],
-                              "displayName": "Select",
-                              "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-                              "labelText": "5) la superficie est de :",
-                              "searchTags": [
-                                "dropdown"
-                              ],
-                              "topRow": 19,
-                              "bottomRow": 23,
-                              "parentRowSpace": 10,
-                              "labelWidth": "9",
-                              "type": "SELECT_WIDGET",
-                              "serverSideFiltering": false,
-                              "hideCard": false,
-                              "defaultOptionValue": "{{GetQuestions.data[0].question5}}",
-                              "animateLoading": true,
-                              "parentColumnSpace": 9.091682434082031,
-                              "dynamicTriggerPathList": [],
-                              "leftColumn": 19,
-                              "dynamicBindingPathList": [
-                                {
-                                  "key": "accentColor"
-                                },
-                                {
-                                  "key": "borderRadius"
-                                },
-                                {
-                                  "key": "isDisabled"
-                                },
-                                {
-                                  "key": "defaultOptionValue"
-                                }
-                              ],
-                              "labelPosition": "Left",
-                              "options": "[\n  {\n    \"label\": \"15m2\",\n    \"value\": \"15m2\"\n  },\n  {\n    \"label\": \"20m2\",\n    \"value\": \"20m2\"\n  },\n  {\n    \"label\": \"30m2\",\n    \"value\": \"30m2\"\n  },\n\t{\n    \"label\": \"40m2\",\n    \"value\": \"40m2\"\n  },\n\t{\n    \"label\": \"0\",\n    \"value\": \"0\"\n  }\n]",
-                              "placeholderText": "Select option",
-                              "isDisabled": "{{GetQuestions.data.length != 0}}",
-                              "key": "zh8gw7ug2c",
-                              "labelTextSize": "0.875rem",
-                              "isRequired": false,
-                              "isDeprecated": false,
-                              "rightColumn": 34,
-                              "widgetId": "abx6mmqic7",
-                              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                              "isVisible": true,
-                              "version": 1,
-                              "parentId": "cckjd32ryz",
-                              "labelAlignment": "left",
-                              "renderMode": "CANVAS",
-                              "isLoading": false,
-                              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
-                            },
-                            {
-                              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
                               "widgetName": "salaireq",
                               "dynamicPropertyPathList": [
                                 {
@@ -1992,7 +1932,9 @@
                 "appsmith.store.ideleve"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "pageEleve_GetUser",
               "name": "GetUser",
